@@ -1,0 +1,92 @@
+.owl-theme {
+	margin-top:0;
+	text-align:center;
+	-webkit-tap-highlight-color:transparent
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 35%;
+    font-size: 25px;
+    color: #fff;
+    width: 40px;
+    height: 100px;
+    line-height: 100px;
+    background: rgba(0, 0, 0,.20) !important;
+}
+
+
+.owl-theme  .owl-nav [class*=owl-]:hover {
+	text-decoration:none
+}
+.owl-theme .owl-nav .disabled {
+	opacity:.5;
+	cursor:default;
+}
+.owl-theme .owl-dots .owl-dot {
+	display:inline-block;
+	zoom:1;
+*display:inline
+}
+.owl-theme .owl-dots .owl-dot span {
+    margin: 3px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity 200ms ease;
+    -moz-transition: opacity 200ms ease;
+    -ms-transition: opacity 200ms ease;
+    -o-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #115dbe;
+    background: #ffffff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f1bd21;
+    border: 2px solid #ffffff;
+}
+
+.owl-nav.disabled{ display:none}
+
+.owl-clients *{
+	transition: all 0s ease 0s;
+	-webkit-transition: all 0s ease 0s;
+	-moz-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	-ms-transition: all 0s ease 0s;
+}
+
+.clients_blog a {
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+     -webkit-transition: all 0.5s; 
+     transition: all 0.5s; 
+}
+.clients_blog a *{
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+     -webkit-transition: all 0.5s; 
+     transition: all 0.5s; 
+}
+
+
+.owl-carousel_nav .owl-dots{ 
+	text-align:center ;
+    position: absolute;
+    bottom: 100px;
+	right:0 ;
+	left:0
+}
+
+.owl-dots{ text-align:center }

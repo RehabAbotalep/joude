@@ -1,0 +1,441 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@media only screen and ( max-width: 768px) and ( min-width: 0px) {
+    .top_block,
+    .list_mails {
+        text-align: center;
+    }
+    .nav-pills>li {
+        float: left;
+    }
+    .top_block .list_social,
+    .nav-pills>li {
+        float: none;
+        display: inline-block;
+    }
+    .top_block .list_social {
+        margin-top: 5px
+    }
+    .account {
+        margin-right: 0;
+        margin-bottom: 5px;
+        display: block;
+    }
+    .headed_logo_block {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .header_calls {
+        text-align: left;
+        display: none;
+    }
+    .header_calls2 {
+        text-align: right;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo a {
+        padding: 20px;
+    }
+    .headed_logo_block:before {
+        bottom: 0;
+        content: "";
+    }
+    .nav_menu nav ul>li.active>a:before {
+        background: #443ab9;
+    }
+    .nav_menu nav ul>li.active>a {
+        color: #443ab9;
+    }
+    .nav_menu nav ul>li:hover a:before {
+        background: #443ab9;
+    }
+    .nav_menu nav ul>li:hover a {
+        color: #443ab9;
+    }
+    .nav_menu nav>ul>li>a {
+        color: #665bff;
+        text-shadow: none;
+    }
+    .slider_blog>img {
+        height: 335px;
+        width: 100%;
+    }
+    .intro_detail {
+        bottom: 40px;
+    }
+    .intro_detail h2 {
+        margin: 0 0 10px;
+        font-size: 25px;
+        line-height: 28px;
+        max-height: 26px;
+    }
+    .intro_detail p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .single_blogs {
+        margin-top: -20px;
+        margin-bottom: 65px;
+    }
+    .nopaddrig {
+        padding-right: 15px;
+    }
+    .nopaddlef {
+        padding-left: 15px;
+    }
+    .make-appointment-content {
+        display: block;
+        align-items: center;
+    }
+    .make-appointment-content .blogdets .icon,
+    .make-appointment-content .blogdets .title {
+        display: block;
+        margin: 0 auto 15px;
+    }
+    .make-appointment-content .blogdets {
+        display: block;
+        max-width: 100%;
+    }
+    .make-appointment-content .blogdets .title {
+        padding-left: 0;
+        text-align: center;
+    }
+    .make-appointment-content .blogdets2 {
+        text-align: center;
+    }
+    .about_block {
+        text-align: center;
+    }
+    .title_style .decor {
+        margin: 10px auto !important;
+    }
+    .about_content .inner_aboutcontent .single-box {
+        text-align: left;
+    }
+    .about_content .inner_aboutcontent .know-more-box .button,
+    .about_content .inner_aboutcontent .know-more-box .title {
+        display: block;
+    }
+    .about_content .inner_aboutcontent .know-more-box .title {
+        padding-left: 0;
+        padding: 25px;
+    }
+    .videos_blogs iframe {
+        height: 320px;
+    }
+    .single-fact-counter {
+        margin-bottom: 40px;
+    }
+    .title_style2 h2 {
+        font-size: 30px;
+    }
+    .persons_blog>.par_clients {
+        padding: 40px 20px 130px;
+    }
+    .par_clients .intitle_style .decor_dashri,
+    .par_clients .intitle_style .decor_dashle {
+        display: none;
+    }
+    .single-pricing-box {
+        padding: 10px;
+    }
+    .coponimg a img {
+        max-width: 180px;
+    }
+    .coponimg {
+        height: 80px;
+    }
+    .title_style,
+    .footer-area {
+        text-align: center;
+    }
+    .single-footer-widget .title {
+        padding-bottom: 15px;
+    }
+    .single-footer-widget {
+        margin-bottom: 47px;
+    }
+    .single-footer-widget .decor {
+        margin: 15px auto;
+    }
+    .single-footer-widget .usefull-links ul:before {
+        display: none;
+    }
+    .single-footer-widget .usefull-links ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .single-footer-widget .usefull-links ul {
+        margin-bottom: 0;
+    }
+    .single-footer-widget .recent-news li .img-holder {
+        position: relative;
+        margin: 0 auto;
+    }
+    .single-footer-widget .recent-news li .title-holder {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .single-footer-widget .recent-news li {
+        padding-left: 0;
+    }
+    .single-footer-widget .subscribe-form {
+        margin: 0 auto;
+    }
+    .image_blockabout .img_holder {
+        text-align: center;
+    }
+    .account_blogrows .media-left,
+    .account_blogrows .media-right,
+    .account_blogrows .media-body {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .account_image {
+        margin-bottom: 20px;
+    }
+    .readmore-button2 button {
+        margin-bottom: 15px;
+    }
+    .ininput_newblog_three>div {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .ininput_newblog_double>div {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .sky-tabs>label {
+        width: 100%;
+    }
+    .accountpage .title_style,
+    .login_page .title_style,
+    .contact_page .title_style {
+        text-align: left
+    }
+    .accountpage .title_style .decor,
+    .contact_page .title_style .decor,
+    .login_page .title_style .decor {
+        margin: 10px 0 0 !important;
+    }
+}
+
+@media only screen and ( max-width: 992px) and ( min-width: 757px) {
+    .top_block,
+    .list_mails {
+        text-align: center;
+    }
+    .nav-pills>li {
+        float: left;
+    }
+    .top_block .list_social,
+    .nav-pills>li {
+        float: none;
+        display: inline-block;
+    }
+    .top_block .list_social {
+        margin-top: 5px
+    }
+    .account {
+        margin-right: 0;
+        margin-bottom: 5px;
+        display: block;
+    }
+    .headed_logo_block {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .header_calls {
+        text-align: left;
+        display: none;
+    }
+    .header_calls2 {
+        text-align: right;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo a {
+        padding: 20px;
+    }
+    .headed_logo_block:before {
+        bottom: 0;
+        content: "";
+    }
+    .nav_menu nav ul>li.active>a:before {
+        background: #443ab9;
+    }
+    .nav_menu nav ul>li.active>a {
+        color: #443ab9;
+    }
+    .nav_menu nav ul>li:hover a:before {
+        background: #443ab9;
+    }
+    .nav_menu nav ul>li:hover a {
+        color: #443ab9;
+    }
+    .nav_menu nav>ul>li>a {
+        color: #665bff;
+        text-shadow: none;
+    }
+    .slider_blog>img {
+        height: 380px;
+    }
+    .intro_detail {
+        bottom: 40px;
+    }
+    .intro_detail h2 {
+        font-size: 55px;
+        max-height: 60px;
+    }
+    .intro_detail p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .single_blogs {
+        margin-top: -20px;
+        margin-bottom: 65px;
+    }
+    .nopaddrig {
+        padding-right: 15px;
+    }
+    .nopaddlef {
+        padding-left: 15px;
+    }
+    .make-appointment-content {
+        display: block;
+        align-items: center;
+    }
+    .make-appointment-content .blogdets .icon,
+    .make-appointment-content .blogdets .title {
+        display: block;
+        margin: 0 auto 15px;
+    }
+    .make-appointment-content .blogdets {
+        display: block;
+        max-width: 100%;
+    }
+    .make-appointment-content .blogdets .title {
+        padding-left: 0;
+        text-align: center;
+    }
+    .make-appointment-content .blogdets2 {
+        text-align: center;
+    }
+    .about_block {
+        text-align: center;
+    }
+    .title_style .decor {
+        margin: 10px auto !important;
+    }
+    .about_content .inner_aboutcontent .single-box {
+        text-align: left;
+    }
+    .about_content .inner_aboutcontent .know-more-box .button,
+    .about_content .inner_aboutcontent .know-more-box .title {
+        display: block;
+    }
+    .about_content .inner_aboutcontent .know-more-box .title {
+        padding-left: 0;
+        padding: 25px;
+    }
+    .single-fact-counter {
+        margin-bottom: 40px;
+    }
+    .title_style2 h2 {
+        font-size: 30px;
+    }
+    .persons_blog>.par_clients {
+        padding: 40px 20px 130px;
+    }
+    .par_clients .intitle_style .decor_dashri,
+    .par_clients .intitle_style .decor_dashle {
+        display: none;
+    }
+    .single-pricing-box {
+        padding: 10px;
+    }
+    .coponimg a img {
+        max-width: 180px;
+    }
+    .coponimg {
+        height: 80px;
+    }
+    .title_style,
+    .footer-area {
+        text-align: center;
+    }
+    .single-footer-widget .title {
+        padding-bottom: 15px;
+    }
+    .single-footer-widget {
+        margin-bottom: 47px;
+    }
+    .single-footer-widget .decor {
+        margin: 15px auto;
+    }
+    .single-footer-widget .usefull-links ul:before {
+        display: none;
+    }
+    .single-footer-widget .usefull-links ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .single-footer-widget .usefull-links ul {
+        margin-bottom: 0;
+    }
+    .single-footer-widget .recent-news li .img-holder {
+        position: relative;
+        margin: 0 auto;
+    }
+    .single-footer-widget .recent-news li .title-holder {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .single-footer-widget .recent-news li {
+        padding-left: 0;
+    }
+    .single-footer-widget .subscribe-form {
+        margin: 0 auto;
+    }
+    .image_blockabout .img_holder {
+        text-align: center;
+    }
+    .dropdown-menu {
+        right: -28px;
+    }
+    .accountpage .title_style,
+    .login_page .title_style,
+    .contact_page .title_style {
+        text-align: left
+    }
+    .accountpage .title_style .decor,
+    .contact_page .title_style .decor,
+    .login_page .title_style .decor {
+        margin: 10px 0 0 !important;
+    }
+}
+
+@media only screen and ( max-width: 1169px) and ( min-width: 993px) {
+    .single_blogs .img_single_blogs img {
+        height: 395px;
+    }
+    .clearres {
+        clear: both;
+    }
+    .footer-area {
+        padding-bottom: 30px;
+    }
+    .single-footer-widget {
+        margin-bottom: 50px;
+    }
+}
